@@ -1,5 +1,4 @@
 #include "main.h"
-
 /****************** PRINT POINTER ******************/
 /**
 * print_pointer - Prints the value of a pointer variable
@@ -91,7 +90,6 @@ int print_non_printable(va_list types, char buffer[],
 
 	return (write(1, buffer, i + offset));
 }
-
 /************************* PRINT REVERSE *************************/
 /**
 * print_reverse - Prints reverse string.
@@ -103,7 +101,6 @@ int print_non_printable(va_list types, char buffer[],
 * @size: Size specifier
 * Return: Numbers of chars printed
 */
-
 int print_reverse(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
 {
